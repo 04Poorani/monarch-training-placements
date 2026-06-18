@@ -61,6 +61,13 @@ border-radius:50px;
 font-weight:600;
 transition:.3s;
 }
+@media(max-width:992px){
+
+    .enroll-btn{
+        display:none;
+    }
+
+}
 
 .enroll-btn:hover{
 transform:translateY(-3px);
@@ -72,7 +79,7 @@ transform:translateY(-3px);
 }
 
 .logo img{
-    width:180px;
+    width:140px;
     height:auto;
 }
 
@@ -545,6 +552,13 @@ margin-top:10px;
 /* MOBILE */
 
 @media(max-width:992px){
+
+    .navbar{
+    padding:15px 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
 
 .nav-links{
 display:none;
@@ -2557,6 +2571,16 @@ footer a:hover{
     font-size:32px;
     color:#fff;
     cursor:pointer;
+}
+@media(max-width:992px){
+
+    .menu-toggle{
+        display:block;
+        font-size:36px;
+        color:#fff;
+        cursor:pointer;
+    }
+
 }
 
 @media(max-width:992px){
