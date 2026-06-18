@@ -334,6 +334,9 @@ color:#bdbdbd;
     line-height:2;
 
     max-width:1200px;
+width:100%;
+width:100%;
+
 
     margin:0 auto;
 }
@@ -1368,6 +1371,8 @@ color:#bdbdbd;
 .mission-vision-section{
 
     max-width:1200px;
+width:100%;
+width:100%;
     margin:120px auto;
     padding:0 5%;
 
@@ -2381,6 +2386,8 @@ body::after{
 }
 .zigzag-learning{
     max-width:1200px;
+width:100%;
+width:100%;
     margin:auto;
     padding:100px 8%;
     position:relative;
@@ -2514,4 +2521,90 @@ footer a{
 
 footer a:hover{
     color:#ffffff;
+}
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px){
+
+    .navbar{
+        padding:15px 20px;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .nav-links a{
+        font-size:14px;
+    }
+
+    .enroll-btn{
+        padding:10px 18px;
+    }
+
+    /* Hero */
+
+    .hero-content h1,
+    .contact-content h1,
+    .page-hero h1{
+        font-size:2rem !important;
+        line-height:1.2;
+    }
+
+    .hero-content p,
+    .contact-content p,
+    .page-hero p{
+        font-size:14px;
+    }
+
+    /* Cards */
+
+    .cards-container,
+    .feature-grid,
+    .program-grid,
+    .support-grid,
+    .stats-grid{
+        grid-template-columns:1fr !important;
+    }
+
+    /* Contact */
+
+    .contact-form{
+        width:100%;
+        padding:25px;
+    }
+
+    .contact-info-map{
+        grid-template-columns:1fr !important;
+        gap:30px;
+    }
+
+    .map-box iframe{
+        height:300px;
+    }
+
+    /* CTA */
+
+    .cta-content h2{
+        font-size:1.8rem;
+    }
+
+    /* Footer */
+
+    footer{
+        padding:30px 20px;
+        text-align:center;
+    }
+
+    img{
+        max-width:100%;
+        height:auto;
+    }
+
 }
