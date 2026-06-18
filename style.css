@@ -2608,3 +2608,174 @@ footer a:hover{
     }
 
 }
+/* =========================
+   TABLET
+========================= */
+
+@media screen and (max-width: 992px){
+
+    .navbar{
+        padding:15px 25px;
+    }
+
+    .nav-links{
+        gap:18px;
+    }
+
+    .hero-content h1,
+    .contact-content h1{
+        font-size:3rem;
+    }
+
+    .feature-grid,
+    .program-grid,
+    .support-grid,
+    .stats-grid,
+    .contact-info-map{
+        grid-template-columns:1fr 1fr;
+    }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media screen and (max-width:768px){
+
+    body{
+        overflow-x:hidden;
+    }
+
+    .navbar{
+        flex-direction:column;
+        gap:15px;
+        padding:15px;
+    }
+
+    .logo img{
+        width:120px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:12px;
+    }
+
+    .nav-links a{
+        font-size:14px;
+    }
+
+    .enroll-btn{
+        width:100%;
+        text-align:center;
+    }
+
+    /* Hero */
+
+    .hero-content,
+    .contact-content,
+    .cta-content{
+        width:90%;
+        margin:auto;
+    }
+
+    .hero-content h1,
+    .contact-content h1{
+        font-size:2rem !important;
+        line-height:1.2;
+    }
+
+    .hero-content p,
+    .contact-content p{
+        font-size:14px;
+        line-height:1.7;
+    }
+
+    /* Grids */
+
+    .feature-grid,
+    .program-grid,
+    .support-grid,
+    .stats-grid,
+    .contact-info-map{
+        grid-template-columns:1fr !important;
+    }
+
+    /* Cards */
+
+    .feature-card,
+    .program-card,
+    .support-card,
+    .stat-card,
+    .contact-info,
+    .contact-form{
+        width:100%;
+    }
+
+    /* Contact Form */
+
+    .contact-form{
+        padding:20px;
+    }
+
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form select{
+        font-size:16px;
+    }
+
+    /* Map */
+
+    .map-box iframe{
+        height:300px;
+    }
+
+    /* CTA */
+
+    .cta-content h2{
+        font-size:1.8rem;
+    }
+
+    /* Footer */
+
+    footer{
+        padding:30px 20px;
+        text-align:center;
+    }
+
+    /* Images */
+
+    img{
+        max-width:100%;
+        height:auto;
+        display:block;
+    }
+
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media screen and (max-width:480px){
+
+    .hero-content h1,
+    .contact-content h1{
+        font-size:1.7rem !important;
+    }
+
+    .cta-content h2{
+        font-size:1.5rem;
+    }
+
+    .nav-links{
+        gap:8px;
+    }
+
+    .nav-links a{
+        font-size:13px;
+    }
+
+}
