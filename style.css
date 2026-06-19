@@ -3378,3 +3378,456 @@ body{
         margin-top:10px;
     }
 }
+/* ===== DESKTOP FONT SIZE REDUCE ===== */
+
+@media(min-width:769px){
+
+    /* Main Hero Titles */
+    .hero-content h1,
+    .training-content h1,
+    .roadmap-content h1,
+    .about-content h1,
+    .contact-content h1,
+    .placement-content h1{
+        font-size:58px !important;
+    }
+
+    /* Hero Paragraph */
+    .hero-content p,
+    .training-content p,
+    .roadmap-content p,
+    .about-content p,
+    .contact-content p,
+    .placement-content p{
+        font-size:17px !important;
+    }
+
+    /* Section Headings */
+    .companies h2,
+    .why-monarch h2,
+    .training-modules h2,
+    .placement-stats h2,
+    .zigzag-learning h2,
+    .about-intro h2,
+    .showcase-text h2,
+    .mission-side h2,
+    .vision-side h2,
+    .cta-content h2{
+        font-size:42px !important;
+    }
+
+    /* Card Titles */
+    .module-box h3,
+    .timeline-card h3,
+    .content h3,
+    .journey-content h3{
+        font-size:24px !important;
+    }
+
+    /* Normal Text */
+    p,
+    li{
+        font-size:15px;
+    }
+
+    /* Stats */
+    .stat-card h2{
+        font-size:46px !important;
+    }
+}
+/* ==========================================
+   FINAL MOBILE OPTIMIZATION
+========================================== */
+
+@media(max-width:768px){
+
+    /* HERO SECTIONS */
+
+    .hero,
+    .training-hero,
+    .roadmap-hero,
+    .placement-hero,
+    .about-hero,
+    .contact-hero{
+
+        min-height:80vh !important;
+
+        display:flex !important;
+        justify-content:center !important;
+        align-items:center !important;
+
+        padding:90px 20px !important;
+
+        position:relative;
+        overflow:hidden;
+    }
+
+    /* HERO CONTENT */
+
+    .hero-content,
+    .training-content,
+    .roadmap-content,
+    .placement-content,
+    .about-content,
+    .contact-content{
+
+        max-width:330px;
+        margin:auto;
+        text-align:center;
+        z-index:2;
+    }
+
+    /* CENTER GLOW CIRCLES */
+
+    .glow-circle,
+    .about-circle,
+    .contact-circle{
+
+        position:absolute !important;
+
+        top:50% !important;
+        left:50% !important;
+
+        transform:translate(-50%,-50%) !important;
+
+        width:280px !important;
+        height:280px !important;
+
+        opacity:.45;
+    }
+
+    /* SAME GAP AFTER HERO */
+
+    .stats,
+    .why-monarch,
+    .training-modules,
+    .timeline-section,
+    .placement-journey,
+    .about-intro,
+    .contact-form-section{
+
+        padding-top:80px !important;
+    }
+
+    /* HERO TITLES */
+
+    .hero-content h1,
+    .training-content h1,
+    .roadmap-content h1,
+    .placement-content h1,
+    .about-content h1,
+    .contact-content h1{
+
+        font-size:26px !important;
+        line-height:1.25 !important;
+        margin-bottom:15px !important;
+    }
+
+    /* SUBTITLE */
+
+    .subtitle{
+
+        font-size:9px !important;
+        letter-spacing:3px !important;
+    }
+
+    /* HERO DESCRIPTION */
+
+    .hero-content p,
+    .training-content p,
+    .roadmap-content p,
+    .placement-content p,
+    .about-content p,
+    .contact-content p{
+
+        font-size:12px !important;
+        line-height:1.8 !important;
+    }
+
+    /* ALL HEADINGS */
+
+    h2{
+
+        font-size:22px !important;
+        line-height:1.3 !important;
+    }
+
+    h3{
+
+        font-size:16px !important;
+        line-height:1.4 !important;
+    }
+
+    h4{
+
+        font-size:14px !important;
+    }
+
+    /* NORMAL TEXT */
+
+    p,
+    li{
+
+        font-size:12px !important;
+        line-height:1.8 !important;
+    }
+
+    /* STATS */
+
+    .stat-card h2{
+
+        font-size:28px !important;
+    }
+
+    .stat-card p{
+
+        font-size:12px !important;
+    }
+
+    /* BUTTONS */
+
+    .primary-btn,
+    .secondary-btn,
+    .banner-btn,
+    .cta-btn,
+    .enroll-btn{
+
+        font-size:13px !important;
+    }
+
+    /* NAVBAR */
+
+    .nav-links a{
+
+        font-size:13px !important;
+    }
+
+    /* TIMELINE */
+
+    .timeline-card h3{
+
+        font-size:18px !important;
+    }
+
+    /* ZIGZAG */
+
+    .zigzag-item .content h3{
+
+        font-size:15px !important;
+    }
+
+    .zigzag-item .content p{
+
+        font-size:11px !important;
+    }
+
+    /* CONTACT */
+
+    .contact-info h2{
+
+        font-size:22px !important;
+    }
+
+    .contact-info p,
+    .contact-details div{
+
+        font-size:12px !important;
+    }
+
+    /* FOOTER */
+
+    footer h3{
+
+        font-size:16px !important;
+    }
+
+    footer p{
+
+        font-size:11px !important;
+    }
+
+    /* LOGO */
+
+    .logo img{
+
+        width:150px !important;
+    }
+}
+@media(max-width:768px){
+
+    .admission-banner{
+
+        max-width:260px !important;
+
+        padding:18px !important;
+
+        margin:15px auto 0 !important;
+
+        border-radius:18px !important;
+    }
+
+    .admission-banner h3{
+
+        font-size:18px !important;
+
+        margin-top:12px !important;
+    }
+
+    .admission-banner p{
+
+        font-size:11px !important;
+
+        line-height:1.6 !important;
+
+        margin-top:10px !important;
+    }
+
+    .banner-badge{
+
+        font-size:9px !important;
+
+        padding:6px 12px !important;
+    }
+
+    .live-indicator{
+
+        font-size:10px !important;
+
+        margin-top:12px !important;
+    }
+
+    .banner-btn{
+
+        max-width:180px !important;
+
+        padding:10px 18px !important;
+
+        font-size:12px !important;
+
+        margin-top:15px !important;
+    }
+
+}
+@media(max-width:768px){
+
+    .stats{
+        padding:40px 20px !important;
+        gap:15px !important;
+    }
+
+    .stat-card{
+        min-height:120px !important;
+        padding:25px 15px !important;
+        border-radius:20px !important;
+    }
+
+    .stat-card h2{
+        font-size:24px !important;
+        margin-bottom:8px !important;
+    }
+
+    .stat-card p{
+        font-size:12px !important;
+        line-height:1.4 !important;
+    }
+}
+@media (max-width:768px){
+
+    .contact-form{
+        max-width:320px !important;
+        padding:20px 15px !important;
+        margin:auto !important;
+    }
+
+    .form-group input,
+    .form-group select{
+        height:45px !important;
+        min-height:45px !important;
+        padding:8px 12px !important;
+    }
+
+    .form-group textarea{
+        height:90px !important;
+        min-height:90px !important;
+    }
+
+    .submit-btn{
+        height:45px !important;
+    }
+}
+@media(max-width:768px){
+
+    /* CONTACT FORM CONTAINER */
+
+    .contact-form{
+        width:88% !important;
+        max-width:330px !important;
+        padding:20px !important;
+        border-radius:20px !important;
+    }
+
+    /* TITLE */
+
+    .contact-form h2{
+        font-size:22px !important;
+        margin-bottom:18px !important;
+    }
+
+    /* INPUTS */
+
+    .form-group input,
+    .form-group select{
+        height:42px !important;
+        padding:10px 14px !important;
+        font-size:13px !important;
+    }
+
+    /* TEXTAREA */
+
+    .form-group textarea{
+        height:90px !important;
+        padding:10px 14px !important;
+        font-size:13px !important;
+    }
+
+    /* BUTTON */
+    .submit-btn{
+    width:220px !important;
+
+    display:flex !important;
+    justify-content:center !important;
+    align-items:center !important;
+
+    margin:0 auto !important;
+
+    text-align:center !important;
+
+    padding:0 !important;
+    }
+}
+@media(max-width:768px){
+
+    .contact-info{
+
+        height:auto !important;
+        min-height:auto !important;
+
+        padding:25px !important;
+    }
+
+}
+@media(max-width:768px){
+
+    .contact-info-map{
+
+        padding:0 30px 50px !important;
+    }
+
+    .contact-info{
+
+        width:95% !important;
+
+        margin:0 auto !important;
+    }
+
+}
