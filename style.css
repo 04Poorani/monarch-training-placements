@@ -3972,3 +3972,65 @@ body{
     }
 
 }
+@media(max-width:768px){
+
+    .circle{
+
+        width:45px !important;
+        height:45px !important;
+
+        font-size:16px !important;
+    }
+
+    .left .circle,
+    .right .circle{
+
+        left:10px !important;
+    }
+
+}
+.mobile-menu a.active{
+    color: #fff;
+    font-weight: 700;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 12px;
+    padding: 12px 20px;
+}
+.nav-links a.active{
+    color:#fff;
+    font-weight:700;
+    position:relative;
+}
+
+.nav-links a.active::after{
+    content:'';
+    position:absolute;
+    left:50%;
+    bottom:-6px;
+    transform:translateX(-50%);
+    width:24px;
+    height:3px;
+    background:#fff;
+    border-radius:10px;
+}
+/* Long text break */
+p, h1, h2, h3, h4, h5, h6, a, span {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+/* Flex/Grid items overflow prevent */
+*{
+    box-sizing: border-box;
+}
+
+.feature-card,
+.program-card,
+.support-card,
+.process-card,
+.timeline-card,
+.stat-card{
+    overflow: hidden;
+}
