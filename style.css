@@ -942,10 +942,10 @@ line-height:1.8;
 
     border-radius:50%;
 
-    background:#090027;
+    background:#ffffff;
     border:1px solid rgba(123,44,255,.15);
 
-    color:#ffffff;
+    color:#000000;
 
     display:flex;
     align-items:center;
@@ -1674,7 +1674,7 @@ height:350px;
 
     border-radius:50px;
 
-    background:#7B61FF;
+    background:#ffffff;
 
     color:#000;
 
@@ -2320,24 +2320,7 @@ body::after{
     border:1px solid #1f1f1f;
 }
 
-/* BLUE BORDER GLOW */
-.feature-card:hover,
-.program-card:hover,
-.support-card:hover,
-.process-card:hover,
-.timeline-card:hover,
-.stat-card:hover{
 
-    border-color:#7B61FF;
-
-    box-shadow:
-    0 0 5px #7B61FF,
-    0 0 15px rgba(123,97,255,.6),
-    0 0 30px rgba(123,97,255,.4),
-    inset 0 0 20px rgba(255,215,0,.05);
-
-    transform:translateY(-5px);
-}
 /* ===== UNIVERSAL BLUE CARD EFFECT ===== */
 
 .feature-card,
@@ -2399,7 +2382,7 @@ body::after{
     top:180px;
     width:2px;
     height:calc(100% - 220px);
-    background:#7B61FF;
+    background:#ffffff;
     transform:translateX(-50%);
 }
 
@@ -2425,7 +2408,7 @@ body::after{
 
     border-radius:50%;
 
-    background:#7B61FF;
+    background:#ffffff;
     color:#000;
 
     display:flex;
@@ -3952,4 +3935,23 @@ body{
 .stat-card:hover::before{
 
     left:130%;
+}
+.feature-card:hover,
+.program-card:hover,
+.support-card:hover,
+.process-card:hover,
+.timeline-card:hover,
+.module-box:hover,
+.content:hover,
+.contact-form:hover,
+.contact-info:hover,
+.stat-card:hover{
+
+    border-color:rgba(255,255,255,.08) !important;
+
+    box-shadow:none !important;
+
+    background:#111111 !important;
+
+    transform:translateY(-5px);
 }
